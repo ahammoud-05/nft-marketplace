@@ -26,7 +26,7 @@ const AuthorItems = ({  }) => {
         }, 1000);
       }
       catch (error) {
-        console.log("Error", error)
+        console.log("Error", error);
         setIsLoading(false);
       }
     }
